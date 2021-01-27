@@ -1,62 +1,98 @@
+@media (max-width: 992px) {
+  section.our-expert {
+    height: 40vh !important;
+  }
+  .what-they-say {
+    height: 70vh !important;
+  }
+  .bird {
+    height: 40vh !important;
+  }
+  .bird-bar {
+    display: block;
+    padding: 20px;
+  }
+  .bird-bar h2 {
+    font-size: 18px;
+  }
+  .bird-bar button {
+    width: 120px;
+  }
+  .scrollspy-example {
+    height: 350px;
+  }
+}
 @media (max-width: 768px) {
-  section.hero .slider-content .slider-title {
-    font-size: 80px;
+  section.our-expert {
+    height: 50vh !important;
   }
-  section.hero .slider-content .slider-text {
-    font-size: 15px;
+  section.our-expert .main-prog span.desc {
+    margin: 6%;
   }
-  section.hero .where-to-go .container .form-main .form-control {
-    font-size: 14px;
+  .our-pricing .card {
+    margin: 10px 0;
   }
-  .golbal-head h2 {
-    font-size: 30px;
+  .scrollspy-example {
+    height: 300px;
   }
-  .golbal-head p {
-    font-size: 14px;
+  .bird {
+    height: 40vh !important;
   }
-  .sub {
-    height: 285px;
+  .bird-bar {
+    display: block;
+    padding: 20px;
   }
-  .sub .container .row .sub-content {
-    height: 40px;
+  .bird-bar h2 {
+    font-size: 18px;
   }
-  .enjoy {
-    margin-top: 25%;
-  }
-  section.banner .banner-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .nav-secondary {
-    display: none;
+  .bird-bar button {
+    width: 120px;
   }
 }
 
 @media (max-width: 576px) {
-  .form-row div {
+  .hero .center h1.title {
+    font-size: 20px;
+  }
+  .hero .center p.desc {
+    font-size: 14px;
+  }
+  .btns-filter button {
+    font-size: 12px !important;
+  }
+  .our-pricing .card {
     margin: 10px 0;
   }
-  .sub .container .row .sub-btn {
-    height: 30px;
+  section.our-expert {
+    height: 110vh;
   }
-  .sub .container .row .sub-input input {
-    margin-top: 10px;
+  section.our-expert .main-prog .circular {
+    transform: scale(1);
   }
-  section.enjoy-video .enjoy h2 {
-    font-size: 40px;
+  section.our-expert .main-prog span.desc {
+    margin: 4%;
   }
-  section.enjoy-video .icon i {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 25px;
-    font-size: 17px;
+  .video-box {
+    margin: 20px 0;
   }
-  .enjoy {
-    margin-top: 55%;
+  .what-they-say {
+    height: 150vh !important;
   }
-  section.hero {
-    margin-top: 85px;
+  .img-area {
+    top: 40px;
+    left: 170px;
+  }
+  .bird {
+    height: 40vh !important;
+  }
+  .bird-bar {
+    display: block;
+    padding: 20px;
+  }
+  .bird-bar h2 {
+    font-size: 18px;
+  }
+  .bird-bar button {
+    width: 120px;
   }
 }
